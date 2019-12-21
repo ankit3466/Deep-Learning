@@ -85,7 +85,7 @@ while True:
 
     if computer_move_name != "none":
         icon = cv2.imread(
-            "images/{}.png".format(computer_move_name))
+            "images/{}.png".format(computer_move_name))  # https://github.com/SouravJohar/rock-paper-scissors/tree/master/images for computer images
         icon = cv2.resize(icon, (400, 400))
         frame[100:500, 800:1200] = icon
 
